@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <script src="script.js"></script>
+        <title>Ejercicios JS - Ejercicio 2 - Cálculo de Comisiones</title>
+    </head>
+
+    <header>
+        <label><b>· Ejercicio 2 - Cálculo de Comisiones ·</b></label>
+    </header>
+
+    <body class="body_ej2">
+        <div class="div_ej2">
+            <h1>Cálculo de Comisiones del Vendedor</h1>
+            <br>
+
+            <blockquote>
+                <blockquote>
+                    <label for="sueldoBase">Sueldo Base:</label>
+                    <input type="text" id="sueldoBase" class="ej2" placeholder="Ingrese el sueldo base" required>
+                    <br><br>
+                    
+                    <label for="venta1">Venta 1:</label>
+                    <input type="text" id="venta1" class="ej2" placeholder="Ingrese monto de la venta 1" required>
+                    <br>
+                    
+                    <label for="venta2">Venta 2:</label>
+                    <input type="text" id="venta2" class="ej2" placeholder="Ingrese monto de la venta 2" required>
+                    <br>
+                    
+                    <label for="venta3">Venta 3:</label>
+                    <input type="text" id="venta3" class="ej2" placeholder="Ingrese monto de la venta 3" required>
+                    <br><br>
+                </blockquote>
+
+                <button onclick="calcularTotal()" class="ej2">Calcular Total</button>               
+                <h2 id="resultado">Comisiones Totales: <br>Sueldo Total: </h2>
+            </blockquote>
+        </div>
+
+        <br>
+        <div class="regreso">
+            <a href="index.html"><b>INICIO</b></a>
+            <br>
+        </div>
+    </body>
+</html>

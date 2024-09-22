@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+        <script src="script.js"></script>
+        <title>Ejercicios JS - Ejercicio 4 - Calculadora de Calificación Final</title>
+    </head>
+
+    <header>
+        <label><b>· Ejercicio 4 - Calculadora de Calificación Final ·</b></label>
+    </header>
+
+    <body class="body_ej4">
+        <div class="div_ej4">
+            <h1>Calculadora de Calificación Final</h1>
+            <br>
+
+            <label for="cal1">Calificación 1:</label>
+            <input type="text" id="cal1" class="ej4" placeholder="Ingresa la calificación 1" required>
+            <br><br>
+            
+            <label for="cal2">Calificación 2:</label>
+            <input type="text" id="cal2" class="ej4" placeholder="Ingresa la calificación 2" required>
+            <br><br>
+            
+            <label for="cal3">Calificación 3:</label>
+            <input type="text" id="cal3" class="ej4" placeholder="Ingresa la calificación 3" required>
+            <br><br><br>
+            
+            <label for="examen">Calificación del Examen Final:</label>
+            <input type="text" id="examen" class="ej4" placeholder="Ingresa la calificación del examen" required>
+            <br><br>
+            
+            <label for="trabajo">Calificación del Trabajo Final:</label>
+            <input type="text" id="trabajo" class="ej4" placeholder="Ingresa la calificación del trabajo" required>
+            <br><br><br>
+            
+            <button onclick="calcularCalificacion()" class="ej4">Calcular Calificación Final</button>
+            <br>
+
+            <div class="resultado" id="resultado">Calificación Final:</div>
+
+            <div class="regreso">
+                <a href="index.html"><b>INICIO</b></a>
+                <br>
+            </div>
+        </div>
+    </body>
+</html>

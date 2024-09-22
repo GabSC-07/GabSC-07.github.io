@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Etiquetas Peligrosas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+        }
+        button {
+            margin-top: 10px;
+        }
+        #output {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eliminar Etiquetas <code>&lt;script&gt;</code></h1>
+    <textarea id="input" placeholder="Ingresa tu HTML aquí..."></textarea>
+    <button onclick="removeScripts()">Eliminar Scripts</button>
+    <div id="output"></div>
+
+    <br>
+        <div class="regreso">
+            <a href="index.html"><b>INICIO</b></a>
+            <br>
+        </div>
+
+    <script>
+        function removeScripts() {
+            const input = document.getElementById('input').value;
+            const output = input.replace(/<script[^>]*>.*?<\/script>/gs, '');
+            document.getElementById('output').innerText = output;
+        }
+    </script>
+</body>
+</html>

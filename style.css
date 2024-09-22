@@ -1,0 +1,229 @@
+/*  La parte de header y bg del inicio  */
+header {
+    background-color: rgb(211, 215, 255);
+    height: 49px;
+
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    padding: 30px;
+    font-size: 37px;
+}
+
+.body_inicio {
+    background-color: #e4faed;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/*   Subheader (pa escoger la opcion)  */
+.choose {
+    margin-left: 180.5mm;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(153, 228, 247);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: larger;
+}
+
+.contenedor{
+    display: flex;
+}
+
+/*  divs ejercicios*/
+.ejercicios {
+    margin-left: 198.5mm;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(153, 247, 181);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 150px;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: large;
+}
+
+
+.ejercicios2 {
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(153, 247, 181);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 150px;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: large;
+}
+
+/*  The back  */
+.regreso {
+    margin-left: 33mm;
+    margin-top: 70px;
+    border-radius: 7px;
+    background-color: rgb(255, 164, 152);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 140px;
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 22px;
+}
+
+
+div.regreso:hover {
+    background-color: #ff7b7b;
+}
+
+
+/*      EJERCICIO 1     */
+.body_ej1 {
+    background-color: #fff2e9;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.div_ej1 {
+    margin-left: 110px;
+    padding-top: 55px;
+}
+
+.ej1 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/*      EJERCICIO 2     */
+.body_ej2 {
+    background-color: #fffddf;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.div_ej2 {
+    margin-left: 150px;
+    padding-top: 55px;
+}
+
+.ej2 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/*      EJERCICIO 3     */
+.body_ej3 {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+
+    background-color: #f9ecff;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid #ccc;
+    border-radius: 5px;*/
+}
+
+.div_ej3 {
+    margin-left: 680px;
+    padding-top: 55px;
+    max-width: 500px;
+}
+
+.ej3 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/*      EJERCICIO 4     */
+.body_ej4 {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #ffecf9;
+}
+
+.div_ej4 {
+    margin-left: 680px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 510px;
+    background-color: rgb(251, 253, 255);
+}
+
+.ej4 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+}
+
+/*      EJERCICIO 5     */
+.body_ej5 {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #f2ffec;
+}
+
+.div_ej5 {
+    margin-left: 680px;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 510px;
+    background-color: rgb(251, 253, 255);
+}
+
+.ej5 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+}
+
+/*      EJERCICIO 6     */
+.body_ej6 {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: #fcedfb;
+}
+
+.div_ej6 {
+    margin-left: 280px;
+    padding-top: 55px;
+    max-width: 500px;
+}
+
+.ej6 {
+    margin: 10px 0;
+    padding: 10px;
+    width: 95%;
+}
